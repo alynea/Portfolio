@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(1, 19, 21);
+    margin: 0;
+}
+
+/* header */
+
+.logo {
+    width: 100px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.headername {
+    font-size: 75px;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.companyName {
+    color: #e6e6e6;
+    text-align: left;
+}
+
+.header_description {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    padding-left: 10px
+}
+
+/***main picture***/
+
+.main_image {
+    width: 100%;
+    padding-top: 1;
+    text-align: center;
+}
+
+/***menu***/
+
+#header {
+    padding-top: 50px;
+}
+
+.menu_row {
+    text-align: center;
+}
+
+.icon {
+    width: 25%;
+    border-style: solid;
+    border-color: rgb(153, 102, 6)
+}
+
+.icon_name {
+    color: white;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+#about {
+    position: relative;
+    top: 200px;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Roboto';
+    padding-bottom: 100px;
+}
+
+/***first section***/
+
+section h2.sect_heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.page_item {
+    padding-top: 50px;
+}
+
+.top-row {
+    margin-top: 30px;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+/***responsive***/
+
+@media (max-width:600px) {
+    .logo {
+        width: 50px;
+        padding-bottom: 10px;
+    }
+    .headername {
+        font-size: 20px;
+        padding-left: 10px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .header_description {
+        padding-left: 20px;
+        font-size: 60%;
+    }
+    #header {
+        padding-top: 10px;
+    }
+    #about {
+        top: 70px;
+    }
+    p {
+        padding-bottom: 200px;
+    }
+}
+
+@media(min-width:1200px) {
+    .main_image {
+        height: 600px;
+        width: 98%;
+    }
+}
+
+@media(min-width:768px) {
+    .logo {
+        width: 70px;
+        padding-bottom: 10px;
+    }
+    .headername {
+        font-size: 40px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
